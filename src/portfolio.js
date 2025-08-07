@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Vaishnavi Dixit",
-  title: "Hi all, I'm Vaishnavi Dixit",
+  username: "Muskan Gautam",
+  title: "Hi all, I'm Muskan Gautam",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Angular and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer🚀 "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1yZIkGKFK4Qc1RXNSXBK6hkNgJjMvyTCr/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/18-hwIKtWPk_x4Q-bOX15wcg10QLpAws_/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/vaishnaviDixit",
-  linkedin: "https://www.linkedin.com/in/vaishnavi-dixit-045977192/",
-  gmail: "vaishu765201@gmail.com",
-  gitlab: "https://gitlab.com/vaishnavi9513114/",
-  facebook: "https://www.facebook.com/sghivanghi.dixit/ ",
-  medium: "https://shivi765201.medium.com/",
-  stackoverflow: "https://stackexchange.com/users/28124632/vaishnavi-dixit ",
+  github: "https://github.com/Muskangautam8933",
+  linkedin: "https://www.linkedin.com/in/muskan893/",
+  gmail: "muskangautam7064@gmail.com",
+  
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -52,12 +49,10 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Developing highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Developing highly interactive Front end / User Interfaces for your web  applications"
     ),
-    emoji("⚡ Designing, developing, testing, and debugging webpages for improved site performance and increased customer retention."),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS "
-    )
+    emoji("⚡ Designing, developing, webpages for improved site performance and increased customer retention."),
+    
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -88,34 +83,23 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      name: "MongoDB",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+   
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -129,22 +113,13 @@ const educationInfo = {
       schoolName: "Allenhouse Institute Of Technology",
       logo: require("./assets/images/logo.png"),
       subHeader: "Bachelor of Technology in Computer Science",
-      duration: "September 2017 - April 2021",
-      desc: "Elected as President of CSE innovative department.",
-      descBullets: [
-        "Director's Gold Medalist award in recognition of First position in Meritorious candidates.",
-        "Allen Achiever Award" 
-      ]
+      duration: "September 2022 - April 2026",
     },
     {
-      schoolName: "Air Force School",
-      logo: require("./assets/images/Afs.png"),
+      schoolName: "Subhash Smarak Inter College",
+      logo: require("./assets/images/images.jpeg"),
       subHeader: "Science",
-      duration: "September 2015 - 2017",
-      desc: "Ranked top 10% in academics, Member of NCC ,Lead Cultural club ,Gold in Sports activities",
-      descBullets: ["Sports -Enthusiast,Coding club Member",
-      "Silver Medalist in public speaking competition"
-    ]
+      duration: "September 2020 - 2022",
     }
   ]
 };
@@ -160,11 +135,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "30%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -176,38 +151,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Packaged App Development",
-      company: "Accenture",
-      companylogo: require("./assets/images/A.png"),
-      date: "Sep 2023 – Present",
-      desc: "Developed and implemented Angular components and features according to provided translations and requirements ",
+      role: "React js Intern",
+      company: "Celebal Technology",
+      companylogo: require("./assets/images/ct-logo.webp"),
+      date: "2-Jun-2025 to 2-Aug-2025",
+      desc: "Developed and implemented React components and features according to provided translations and requirements ",
       descBullets: [
-        "Resolved bug tickets and regression tickets promptly, ensuring the smooth functioning of Angular applications.",
+       "Actively resolved bug and regression issues in the file transfer module, improving the reliability and responsiveness of the Angular front-end.",
         " Actively participated in code reviews, ensuring adherence to coding standards and best practices."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "TCS",
-      companylogo: require("./assets/images/Tcs.png"),
-      date: "August 2021 – Sep 2023",
-      desc: "Collaborated with the agile Scrum team, utilizing tools such as Jira,SmartCapture, SharePoint, and Figma for streamlined web app development, resulting in 100% continuous improvement and deployment",
-      descBullets: [
-        "Developed websites using Angular and integrated GRV using JavaScript resulting in improved user experience and increased engagement.",
-        "Collaborated with the team to design and implement new user interfaces improving the user experience."
+      role: "Trainee",
+      company: "Infosys Sprinboard",
+      companylogo: require("./assets/images/springboard-logo.avif"),
+      date: "May-2025 – August 2025",
+      desc: "Completed foundational Data Science training under Infosys's Pragati Path to Future – Cohort 5, covering key concepts like data analysis, Python, and machine learning basics.",
+      descBullets: [  
+        "Contributed to continuous improvement and deployment processes, ensuring smooth project execution and effective team communication."
       ]
     },
-    {
-      role: "Coading Instructor",
-      company: "Unacademy",
-      companylogo: require("./assets/images/Unacademy.png"),
-      date: "March 2021 – August 2021",
-      desc: "Provide personalized support and guidance to students, including code reviews, troubleshooting assistance, and one-on-one mentorship sessions",
-      descBullets: [
-        "Utilize a variety of teaching methods, including lectures, hands-on projects, and group activities, to engage students and reinforce learning objectives.",
-        "Created engaging lesson plans, assignments, and projects to enhance student understanding and mastery of course material."
-      ]
-    }
+   
   ]
 };
 
@@ -216,35 +180,35 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "Som Websites That I have help develop ",
+  title: "Projects",
+  subtitle: "Som Websites That I have develop ",
   projects: [
     {
-      image: require("./assets/images/all.png"),
-      projectName: "CSE",
-      projectDesc: "Developed CSE department page for our college",
+      image: require("./assets/images/file.png"),
+      projectName: "File Sharing Application",
+      projectDesc: "Develop a website in which you can share your files from one device to another",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://allenhouse.ac.in/cse/"
+          url: "https://file-sharing-app-celebal.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/ACP.png"),
-      projectName: "Allen Cooper",
-      projectDesc: "Developed and integrated inspiration mailing system",
+      image: require("./assets/images/dashboard.png"),
+      projectName: "Admin Dashboard",
+      projectDesc: "Developed a Admin Dashboard.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://superhousegroup.com/allen-cooper/"
+          url: "https://react-dashborad-celebal.vercel.app/ecommerce"
         }
       ]
     }
@@ -314,7 +278,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -338,7 +302,7 @@ const blogSection = {
         "In this blog post, we’ll compare React and Angular from the perspective of beginners to help you make an informed decision."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -357,7 +321,7 @@ const talkSection = {
       event_url: "https://www.linkedin.com/posts/oscode-x-kcc_webandaiconnect-oscodeabrkcc-techagenda-activity-7275358631984803842-HZZA?utm_source=share&utm_medium=member_desktop"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -370,7 +334,7 @@ const podcastSection = {
   podcast: [
     "https://open.spotify.com/embed/episode/2UGxOPBSHtLEBCRoufAo7Y?utm_source=generator"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -379,14 +343,14 @@ const contactInfo = {
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   
      //number: "+91-7652018226",
-    email_address: "vaishu765201@gmail.com"
+    email_address: "muskangautam7064@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "VaishnaviD64822", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
